@@ -1,14 +1,17 @@
 # mysite_demo
 This is my first django demo 
 
-#####python_version: 3.5.1
-#####django_version : 1.9
+####python_version: 3.5.1
+####django_version : 1.9
 
 Common commands : 
-create a django project : `django-admin startproject project_name_you_want`
+```
+django-admin startproject project_name_you_want #create a django project 
 
-run development server (under directory which the same as manage.py): `python manage.py runserver`
+python manage.py runserver #run django development server (under directory which the same as manage.py)
 
-add a app under project : `python manage.py startapp app_name_you_want`
+python manage.py startapp app_name_you_want #add a app under project
+```
 
-Reference url : [Writing your first Django app](https://docs.djangoproject.com/en/1.9/intro/tutorial01/)
+###Reference
+- Official Document : [Writing your first Django app](https://docs.djangoproject.com/en/1.9/intro/tutorial01/)
