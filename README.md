@@ -6,11 +6,13 @@ This is my first django demo
 
 Common commands : 
 ```
-django-admin startproject project_name_you_want #create a django project 
+django-admin startproject project_name_you_want        #create a django project 
 
-python manage.py runserver #run django development server (under directory which the same as manage.py)
+python manage.py runserver        #run django development server (under directory which the same as manage.py)
 
-python manage.py startapp app_name_you_want #add a app under project
+python manage.py startapp app_name_you_want          #add a app under project
+
+python manage.py migrate           #generate some tables in sqlLite for INSTALLED_APPS in settings.py
 ```
 
 ###Reference
